@@ -1,0 +1,178 @@
+<html lang="es-MX">
+<head>
+    <title>INTEGRADORA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        .row:after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 2px;
+            width: 100%;
+            text-align: left;
+        }
+
+        html {
+        font-family: "Arial", "Courier New";
+        color: black;
+        }
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        #titulo {
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 10px;
+        }
+
+        .img {
+            max-width: 200px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 5px;
+        }
+
+        .boton {
+		  background-color: #00b9d8;
+		  border: none;
+		  color: #3f51b5;
+		  padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 16px;
+          width: 100%;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+
+        button:hover, button:active {
+			  background-color: #3f51b5;
+			  color: white;
+        }
+
+        .centrar {
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  text-align: center;
+			  padding: 18px;
+		}
+
+        dl {
+            padding: 30px
+        }
+
+        dt, dd {
+            color: #3f51b5;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #576ce2;
+        }
+
+        .catal {
+            width: auto;
+            display: block;
+            float: left;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 100px;
+        }
+
+    </style>
+    </head>
+<body>
+    <div>
+        <a href="index.html"><img src="imagenes/logo.png" alt="titulo: ¡A toda MAREA!" id="titulo"/></a>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <a href="index.html"><button class="boton boton2">Home</button></a>
+        </div>
+        <div class="col-2">
+            <a href="caballero.html"><button class="boton boton2">Caballeros</button></a>
+        </div>
+        <div class="col-2">
+            <a href="nope.html"><button class="boton boton2">Damas</button></a>
+        </div>
+        <div class="col-2">
+            <a href="nope.html"><button class="boton boton2">Infantes</button></a>
+        </div>
+        <div class="col-2">
+            <a href="nope.html"><button class="boton boton2">Equipo</button></a>
+        </div>
+        <div class="col-2">
+            <a href="nope.html"><button class="boton boton2">Acerca</button></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <dl>
+                <dt><a href="caballero.html">Caballero</a></dt>
+                <dd>- Briefs</dd>
+                <dd>- Shorts</dd>
+                <dd>- Bermudas</dd>
+                <dd>- Speedos</dd>
+                <dd>- Completo</dd>
+                <dt><a href="nope.html">Dama</a></dt>
+                <dt><a href="nope.html">Infantil</a></dt>
+                <dt><a href="nope.html">Equipo</a></dt>                
+            </dl>
+        </div>
+        <div class="col-10">
+            
+                <div class="catal">
+                    <img src="imagenes/imgcaballero/topcab.png" alt="Shorts"/>
+                    <cite class="centrar"><b>Shorts</b></cite>
+                </div>    
+                <div class="catal">
+                    <img src="imagenes/imgcaballero/brief.jpg" alt="Briefs"/>
+                    <cite class="centrar"><b>Briefs</b></cite>
+                </div>
+                <div class="catal">
+                    <img src="imagenes/imgcaballero/speedo.jpg" alt="Speedos"/>
+                    <cite class="centrar"><b>Speedos</b></cite>
+                </div>
+                <div class="catal">
+                    <img src="imagenes/imgcaballero/completo.jpg" alt="Completos"/>
+                    <cite class="centrar"><b>Completos</b></cite>
+                </div>
+                <div class="catal">
+                    <img src="imagenes/imgcaballero/bermuda.jpg" alt="Bermudas"/>
+                    <cite class="centrar"><b>Bermudas</b></cite>
+                </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
